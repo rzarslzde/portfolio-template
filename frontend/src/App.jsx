@@ -44,6 +44,7 @@ export default function App() {
             <Route path="profile" element={<ProfileEditor />} />
             <Route path="files" element={<FilesEditor />} />
             <Route path="posts" element={<BlogManager />} />
+            <Route path="settings" element={<SettingsEditor />} />
             <Route path="*" element={<Navigate to="/admin" replace />} />
           </Route>
         </Route>
